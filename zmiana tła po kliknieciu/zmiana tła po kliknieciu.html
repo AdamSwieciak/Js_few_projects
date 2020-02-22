@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    div {
+      flex-basis: 20%;
+      text-align: center;
+      font-size: 40px;
+      border: solid black 1px;
+      background-color: white;
+    }
+
+    div:nth-child(1) {
+      background-color: yellow;
+    }
+
+    div:nth-child(2) {
+      background-color: green;
+    }
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-transform: uppercase;
+      font-size: 50px;
+      text-align: center;
+      color: aliceblue;
+
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="orange interface"></div>
+    <div class="green interface"></div>
+    <div class="plus interface">+</div>
+    <div class="arrow interface">-></div>
+  </section>
+  <span>tekst</span>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="excersise.js"></script>
+</body>
+
+</html>

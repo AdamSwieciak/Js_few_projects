@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 200%;
+    margin: 10px 100px;
+
+}
+
+.arrow {
+    position: fixed;
+    bottom: 5vh;
+    right: 70px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fas {
+    transition: .5s;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    bottom: -25vh;
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    transition: .5s;
+}
+
+i.on {
+    transform: rotate(180deg);
+
+}
+
+.arrow.on {
+    bottom: 30vh;
+    z-index: 3;
+}
+
+nav.on {
+    bottom: 0;
+}
+
+section.on {
+    margin-bottom: 38vh;
+}

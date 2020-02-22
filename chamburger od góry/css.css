@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: -300px;
+    left: 0;
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    transition: .5s;
+}
+
+.burger {
+    position: fixed;
+    top: 3vh;
+    right: 10vh;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+.fab {
+    color: white;
+}
+
+section {
+    margin: 10px 180px;
+    letter-spacing: 2px;
+    transition: .5s;
+    line-height: 200%;
+}
+
+section.show {
+    padding-top: 200px;
+}
+
+i.show {
+    display: none;
+
+}
+
+nav.show {
+    top: 0px;
+}

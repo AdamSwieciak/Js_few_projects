@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.plus {
+    position: absolute;
+    right: 10vh;
+    top: 10vh;
+    line-height: 30px;
+    font-size: 40px;
+    transition: .2s;
+}
+
+
+.plus:hover {
+    cursor: pointer;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    left: -400px;
+    background-color: black;
+    height: 100vh;
+    width: 23%;
+    transition: .5s;
+}
+
+.plus.active+aside {
+    left: 0;
+}
+
+.fas {
+    display: none;
+}
+
+i.show {
+    display: block;
+}
+
+aside.show {
+    left: 0px;
+}
+
+.wrapper {
+    margin: 10px 150px;
+    transition: .5s;
+}
+
+.wrapper.show {
+    padding-left: 220px;
+}
+
+/* .plus:hover+aside {
+    left: 0;
+} */
